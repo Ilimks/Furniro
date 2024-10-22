@@ -1,0 +1,167 @@
+.popup {
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.popup.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.popup_content {
+    width: 417px;
+    height: 526px;
+    background: white;
+    transform: scale(.5s);
+    transition: .4S all;
+    margin-top: 12px;
+}
+
+.popup_content.active {
+    transform: scale(1);
+}
+
+.popup__card__box {
+    display: flex;
+    margin-top: 29px;
+}
+
+.popup__card__text {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 30px;
+    margin-right: 152px;
+}
+
+.popup__card__line {
+    border: 1px solid #d9d9d9;
+    width: 287px;
+    height: 0px;
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.popup__cards {
+    margin-top: 42px;
+    margin-left: 23px;
+}
+
+.popup__cards__block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.popup__cards__price {
+    margin-left: 32px;
+    margin-top: 24px;
+    margin-right: 60px;
+}
+
+.popup__cards__price__name {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 8px;
+}
+
+.popup__cards__price__text span {
+    font-weight: 500;
+    font-size: 12px;
+    color: #B88E2F;
+}
+
+.subtotal {
+    display: flex;
+    margin-left: 23px;
+    margin-top: 50px;
+}
+
+.subtotal__name {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.subtotal__price__all {
+    font-weight: 600;
+    font-size: 16px;
+    color: #B88E2F;
+    padding-left: 101px;
+}
+
+.popup__card__line__bottom {
+    border: 1px solid #d9d9d9;
+    width: 417px;
+    height: 0px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.popup__btn__bottom {
+    margin-left: 23px;
+}
+
+.popup__btn1 {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 6px 30px;
+    width: 87px;
+    height: 30px;
+    background: none;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.popup__btn1:hover {
+    border: none;
+    background-color: #B88E2F;
+    color: white;
+}
+
+.popup__btn2 {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 6px 30px;
+    width: 118px;
+    height: 30px;
+    background: none;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 14px;
+    cursor: pointer;
+}
+
+.popup__btn2:hover {
+    border: none;
+    background-color: #B88E2F;
+    color: white;
+}
+
+.popup__btn3 {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 6px 30px;
+    width: 135px;
+    height: 30px;
+    background: none;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.popup__btn3:hover {
+    border: none;
+    background-color: #B88E2F;
+    color: white;
+}
